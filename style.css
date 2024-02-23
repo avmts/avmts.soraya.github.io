@@ -1,0 +1,41 @@
+/* Style général */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f2f8;
+  }
+  
+  /* Bannière */
+  
+  .banner {
+    background-image: url('hearts.jpg'); 
+    background-size: cover;
+    color: white;  
+    padding: 50px;
+  }
+  
+  .banner h1 {
+    margin: 0;  
+  }
+  
+  /* Contenu */
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);  
+  }
+  
+  /* Cœurs dans le texte */
+  
+  p::before {
+    content: "♥ ";   
+  }
+  
+  p::after {
+    content: " ♥";
+  }
